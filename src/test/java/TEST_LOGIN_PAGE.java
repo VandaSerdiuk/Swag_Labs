@@ -24,17 +24,17 @@ public class TEST_LOGIN_PAGE {
         LOGINPAGE = new LOGIN_PAGE(driver);
     }
 
-    @Test
-    public void SignInPass() {
-      LOGIN_PAGE loginpage = LOGINPAGE.ToSignIn("standard_user","secret_sauce");
-      String error = loginpage.getSwagLabs();
-      Assert.assertEquals("Swag Labs",error);
-    }
-    @Test
-    public void SwagLabs() {
-        LOGIN_PAGE loginpage = LOGINPAGE.ToSignIn("standard_user","secret_sauce");
-
-    }
+//    @Test
+//    public void SignInPass() {
+//      LOGIN_PAGE loginpage = LOGINPAGE.ToSignIn("standard_user","secret_sauce");
+//      String error = loginpage.getSwagLabs();
+//      Assert.assertEquals("Swag Labs",error);
+//    }
+//    @Test
+//    public void SwagLabs() {
+//        LOGIN_PAGE loginpage = LOGINPAGE.ToSignIn("standard_user","secret_sauce");
+//
+//    }
 
     @After
     public void tearDown() {

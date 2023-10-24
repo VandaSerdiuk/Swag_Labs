@@ -19,29 +19,29 @@ public class LOGIN_PAGE {
 
 
 
-    //                                      Методы с помощью которых  xPath начинает работать
-    public LOGIN_PAGE TypeUsername () {
-        driver.findElement(Username).sendKeys(username);
-        return this;
-    }
-    public LOGIN_PAGE TypePassword (String password) {
-        driver.findElement(Password).sendKeys(password);
-        return this;
-    }
-    public LOGIN_PAGE TypeSauceLabsBackpack (String password) {
-        driver.findElement(SauceLabsBackpack).sendKeys(password);
-        return this;
-    }
-
-
-
-    //                                          Метод для входа вписанный в один код
-    public LOGIN_PAGE ToSignIn (String USER_NAME, String PASSWORD){
-        this.TypeUsername(USER_NAME);
-        this.TypePassword(PASSWORD);
-        driver.findElement(LoginButton).click();
-        return new LOGIN_PAGE(driver);
-    }
+//    //                                      Методы с помощью которых  xPath начинает работать
+//    public LOGIN_PAGE TypeUsername () {
+//        driver.findElement(Username).sendKeys(username);
+//        return this;
+//    }
+//    public LOGIN_PAGE TypePassword (String password) {
+//        driver.findElement(Password).sendKeys(password);
+//        return this;
+//    }
+//    public LOGIN_PAGE TypeSauceLabsBackpack (String password) {
+//        driver.findElement(SauceLabsBackpack).sendKeys(password);
+//        return this;
+//    }
+//
+//
+//
+//    //                                          Метод для входа вписанный в один код
+//    public LOGIN_PAGE ToSignIn (String USER_NAME, String PASSWORD){
+//        this.TypeUsername(USER_NAME);
+//        this.TypePassword(PASSWORD);
+//        driver.findElement(LoginButton).click();
+//        return new LOGIN_PAGE(driver);
+//    }
 
 
 // проверка текста если перешел на страницу
