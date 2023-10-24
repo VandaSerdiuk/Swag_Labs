@@ -20,7 +20,7 @@ public class LOGIN_PAGE {
 
 
     //                                      Методы с помощью которых  xPath начинает работать
-    public LOGIN_PAGE TypeUsername (String username) {
+    public LOGIN_PAGE TypeUsername () {
         driver.findElement(Username).sendKeys(username);
         return this;
     }
