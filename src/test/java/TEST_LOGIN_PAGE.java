@@ -24,7 +24,7 @@ public class TEST_LOGIN_PAGE {
         LOGINPAGE = new LOGIN_PAGE(driver);
     }
 
-//    @Test
+    @Test
 //    public void SignInPass() {
 //      LOGIN_PAGE loginpage = LOGINPAGE.ToSignIn("standard_user","secret_sauce");
 //      String error = loginpage.getSwagLabs();

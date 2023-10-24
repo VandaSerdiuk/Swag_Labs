@@ -45,8 +45,8 @@ public class LOGIN_PAGE {
 
 
 // проверка текста если перешел на страницу
-    public String getSwagLabs () {
-        return driver.findElement(SwagLabs).getText();
-    }
+//    public String getSwagLabs () {
+//        return driver.findElement(SwagLabs).getText();
+//    }
 }
 
